@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function BooksPage() {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks).books;
-  const pageTitle = "📖 Book List with Redux and Firebase";
+  const pageTitle = "📖 Book List with Redux and Firebase From VS Code";
 
   const bookStatus = useSelector(selectBooks).status;
   
